@@ -20,6 +20,7 @@ body
 }
 
 /* MISE EN FORME DU HEADER */
+
 header
 {
     display: flex;
@@ -43,5 +44,93 @@ a
     text-decoration: none;
     color:black;
 }
+
+/* MISE EN FORME DU CORPS DE PAGE */
+
+/* Bannière */
+#banniere
+{
+    background-image: url("images/backgroung_image.jpg");
+    height:450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#banniere img
+{
+    width:200px;
+    display: block;
+}
+
+/* Section centrale*/
+#main_section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#main_section #presentation p
+{
+    width:800px;
+    color:rgb(87,87,87);
+    font-size: 1.4em;
+    margin:30px 0 30px 0;
+    padding:30px 0px 30px 0px;
+    text-align: center;
+}
+
+article h2
+{
+    font-size: 1.32em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#piliers
+{
+    display: flex;
+    width:800px;
+}
+
+#main_section p
+{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+/*Témoignagne client*/
+blockquote
+{
+    width:600px;
+    font-size: 1.55em;
+    color: rgb(87,87,87);
+    margin:50px 0 21px 0;
+}
+
+blockquote p
+{
+    margin:0;
+    text-align: center;
+}
+
+figcaption
+{
+    color: rgb(87,87,87);
+}
+
+
 
 
