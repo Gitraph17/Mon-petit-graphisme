@@ -72,7 +72,7 @@ a
     text-align: center;
 }
 
-#main_section #presentation p
+#presentation
 {
     width:800px;
     color:rgb(87,87,87);
@@ -179,4 +179,9 @@ footer h3
 {
     color: white;
     font-style: normal;
+}
+
+address ul li
+{
+    list-style-type: none;
 }
