@@ -13,9 +13,7 @@
 body
 {
     width:1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    margin:10px auto; 
     font-family: "robotoregular", Arial, Verdana, sans-serif;
 }
 
@@ -28,13 +26,13 @@ header
     align-items: center;
 }
 
-nav ul
+header nav ul
 {
     list-style-type: none;
     display: flex;
 }
 
-nav ul li
+header nav ul li
 {
     padding-left: 30px;
 }
@@ -129,8 +127,56 @@ blockquote p
 figcaption
 {
     color: rgb(87,87,87);
+    margin-bottom: 16px;
 }
 
+/*FOOTER*/
 
+footer
+{
+    background-color:#5b359d;
+    padding-top: 18px;
+}
 
+footer h2
+{
+    color:white;
+    font-size: 0.7em;
+    text-align: center;
+    font-weight: 500;
+}
 
+#socials
+{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, .6);
+    margin-top: 9.96px;
+}
+
+#socials i
+{
+    padding: 0 40px 0 40px;
+    font-size: 30.4px;
+}
+
+#footer_content
+{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+footer h3
+{
+    margin:0;
+    color: rgba(255, 255, 255, .6);
+    font-size: 1.0em;
+    font-weight: normal;
+}
+
+#footer_content nav, address, #footer_content a
+{
+    color: white;
+    font-style: normal;
+}
